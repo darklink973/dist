@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:slash="http://purl.org/rss/1.0/modules/slash/">
+  <channel>
+    <title>News</title>
+    <description>Updates and Announcements</description>
+    <pubDate>Sun, 02 Jun 2024 11:54:00 +0000</pubDate>
+    <lastBuildDate>Sun, 02 Jun 2024 11:54:00 +0000</lastBuildDate>
+    <generator>EarthLink</generator>
+    <item>
+      <title></title>
+      <pubDate>sun, 02 Jun 2024 14:01:00 +0000</pubDate>
+      <dc:creator>darkvox</dc:creator>
+      <content:encoded>J'ai enfin reussi a faire les news !</content:encoded>
+    </item>
+  </channel>
+</rss>
