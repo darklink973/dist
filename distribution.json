@@ -1,0 +1,2169 @@
+{
+  "version": "0.0.1",
+  "rss": "http://news.earthlink-minecraft.fr",
+  "discord": {
+    "clientId": "1219669281139331072",
+    "smallImageText": "",
+    "smallImageKey": ""
+  },
+  "servers": [
+    {
+      "id": "EarthLink-1.16.5",
+      "name": "EarthLink Beta1",
+      "description": "Meilleur serveur",
+      "icon": "http://13.60.87.2/launcher_update/images/earthlink.png",
+      "version": "0.0.1",
+      "address": "www.earthlink-minecraft.fr",
+      "minecraftVersion": "1.16.5",
+      "discord": {
+        "shortId": "EarthLink-1.16.5",
+        "largeImageText": "Bonjour",
+        "largeImageKey": "forge-minecraft"
+      },
+      "mainServer": true,
+      "autoconnect": false,
+      "modules": [
+        {
+          "id": "net.minecraftforge:forge:1.16.5-36.2.42",
+          "name": "Minecraft Forge (base jar)",
+          "type": "ForgeHosted",
+          "classpath": true,
+          "artifact": {
+            "size": 212563,
+            "MD5": "8ff0086ade0cf0f1d513e72edd04348c",
+            "url": "http://13.60.87.2/launcher_update/repo/lib/net/minecraftforge/forge/1.16.5-36.2.42/forge-1.16.5-36.2.42.jar"
+          },
+          "subModules": [
+            {
+              "id": "1.16.5-36.2.42",
+              "name": "Minecraft Forge (version.json)",
+              "type": "VersionManifest",
+              "artifact": {
+                "size": 13577,
+                "MD5": "f38b527e26e0a0165e2118970d1a4d13",
+                "url": "http://13.60.87.2/launcher_update/repo/versions/1.16.5-forge-36.2.42/1.16.5-forge-36.2.42.json"
+              }
+            },
+            {
+              "id": "net.minecraftforge:forge:1.16.5-36.2.42:universal",
+              "name": "Minecraft Forge (universal jar)",
+              "type": "Library",
+              "classpath": true,
+              "artifact": {
+                "size": 2540080,
+                "MD5": "d5b89861a4e02bab15a111d529d99d86",
+                "url": "http://13.60.87.2/launcher_update/repo/lib/net/minecraftforge/forge/1.16.5-36.2.42/forge-1.16.5-36.2.42-universal.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraftforge:forge:1.16.5-36.2.42:client",
+              "name": "Minecraft Forge (client jar)",
+              "type": "Library",
+              "classpath": true,
+              "artifact": {
+                "size": 4214276,
+                "MD5": "e26430416f5d1bd7c205c1b81a0fb8f8",
+                "url": "http://13.60.87.2/launcher_update/repo/lib/net/minecraftforge/forge/1.16.5-36.2.42/forge-1.16.5-36.2.42-client.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraft:client:1.16.5-20210115.111550:srg",
+              "name": "Minecraft Forge (client srg)",
+              "type": "Library",
+              "classpath": true,
+              "artifact": {
+                "size": 11352644,
+                "MD5": "1ff5fbcd0d1118f50a54d0de05ff22b8",
+                "url": "http://13.60.87.2/launcher_update/repo/lib/net/minecraft/client/1.16.5-20210115.111550/client-1.16.5-20210115.111550-srg.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraft:client:1.16.5-20210115.111550:slim",
+              "name": "Minecraft Forge (client slim)",
+              "type": "Library",
+              "classpath": true,
+              "artifact": {
+                "size": 9118806,
+                "MD5": "df78297c0b6526e16f2bb7a685fd6b96",
+                "url": "http://13.60.87.2/launcher_update/repo/lib/net/minecraft/client/1.16.5-20210115.111550/client-1.16.5-20210115.111550-slim.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraft:client:1.16.5-20210115.111550:extra",
+              "name": "Minecraft Forge (client extra)",
+              "type": "Library",
+              "classpath": true,
+              "artifact": {
+                "size": 8428369,
+                "MD5": "dbed747390f81e10cee40500b726431a",
+                "url": "http://13.60.87.2/launcher_update/repo/lib/net/minecraft/client/1.16.5-20210115.111550/client-1.16.5-20210115.111550-extra.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "org.ow2.asm:asm:9.6",
+              "name": "Minecraft Forge (asm)",
+              "type": "Library",
+              "artifact": {
+                "size": 123598,
+                "MD5": "6f8bccf756f170d4185bb24c8c2d2020",
+                "url": "http://13.60.87.2/launcher_update/repo/lib/org/ow2/asm/asm/9.6/asm-9.6.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-commons:9.6",
+              "name": "Minecraft Forge (asm-commons)",
+              "type": "Library",
+              "artifact": {
+                "size": 72194,
+                "MD5": "9e317c75534bd1da8c00a67c618ab288",
+                "url": "http://13.60.87.2/launcher_update/repo/lib/org/ow2/asm/asm-commons/9.6/asm-commons-9.6.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-tree:9.6",
+              "name": "Minecraft Forge (asm-tree)",
+              "type": "Library",
+              "artifact": {
+                "size": 51935,
+                "MD5": "6062608f1a98afe1e853d01fa1221a9e",
+                "url": "http://13.60.87.2/launcher_update/repo/lib/org/ow2/asm/asm-tree/9.6/asm-tree-9.6.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-util:9.6",
+              "name": "Minecraft Forge (asm-util)",
+              "type": "Library",
+              "artifact": {
+                "size": 91131,
+                "MD5": "bd3bc1c176a787373e9a031073c9574b",
+                "url": "http://13.60.87.2/launcher_update/repo/lib/org/ow2/asm/asm-util/9.6/asm-util-9.6.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-analysis:9.6",
+              "name": "Minecraft Forge (asm-analysis)",
+              "type": "Library",
+              "artifact": {
+                "size": 34041,
+                "MD5": "31c84ef7cc893fb278952ae2d6a2674f",
+                "url": "http://13.60.87.2/launcher_update/repo/lib/org/ow2/asm/asm-analysis/9.6/asm-analysis-9.6.jar"
+              }
+            },
+            {
+              "id": "cpw.mods:modlauncher:8.1.3",
+              "name": "Minecraft Forge (modlauncher)",
+              "type": "Library",
+              "artifact": {
+                "size": 126747,
+                "MD5": "b6ba74224a6a68e6fb3e9cf3d72b9344",
+                "url": "http://13.60.87.2/launcher_update/repo/lib/cpw/mods/modlauncher/8.1.3/modlauncher-8.1.3.jar"
+              }
+            },
+            {
+              "id": "cpw.mods:grossjava9hacks:1.3.3",
+              "name": "Minecraft Forge (grossjava9hacks)",
+              "type": "Library",
+              "artifact": {
+                "size": 2113,
+                "MD5": "d19b487241008d8e6111137a289ea1d7",
+                "url": "http://13.60.87.2/launcher_update/repo/lib/cpw/mods/grossjava9hacks/1.3.3/grossjava9hacks-1.3.3.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:accesstransformers:3.0.1",
+              "name": "Minecraft Forge (accesstransformers)",
+              "type": "Library",
+              "artifact": {
+                "size": 76586,
+                "MD5": "ada4c365c3d0de73c05a94010432b547",
+                "url": "http://13.60.87.2/launcher_update/repo/lib/net/minecraftforge/accesstransformers/3.0.1/accesstransformers-3.0.1.jar"
+              }
+            },
+            {
+              "id": "org.antlr:antlr4-runtime:4.9.1",
+              "name": "Minecraft Forge (antlr4-runtime)",
+              "type": "Library",
+              "artifact": {
+                "size": 337868,
+                "MD5": "0dcc4b860d5d8d2852ab94d58c56ca2d",
+                "url": "http://13.60.87.2/launcher_update/repo/lib/org/antlr/antlr4-runtime/4.9.1/antlr4-runtime-4.9.1.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:eventbus:4.0.0",
+              "name": "Minecraft Forge (eventbus)",
+              "type": "Library",
+              "artifact": {
+                "size": 42873,
+                "MD5": "84c4758e6139b70146104be5bb1300b5",
+                "url": "http://13.60.87.2/launcher_update/repo/lib/net/minecraftforge/eventbus/4.0.0/eventbus-4.0.0.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:forgespi:3.2.0",
+              "name": "Minecraft Forge (forgespi)",
+              "type": "Library",
+              "artifact": {
+                "size": 20172,
+                "MD5": "8f1f6942d17d88d704324e8000666a1a",
+                "url": "http://13.60.87.2/launcher_update/repo/lib/net/minecraftforge/forgespi/3.2.0/forgespi-3.2.0.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:coremods:4.0.6",
+              "name": "Minecraft Forge (coremods)",
+              "type": "Library",
+              "artifact": {
+                "size": 25453,
+                "MD5": "e56551f2586d3ff08beb24f5ea44a7d3",
+                "url": "http://13.60.87.2/launcher_update/repo/lib/net/minecraftforge/coremods/4.0.6/coremods-4.0.6.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:unsafe:0.2.0",
+              "name": "Minecraft Forge (unsafe)",
+              "type": "Library",
+              "artifact": {
+                "size": 2834,
+                "MD5": "2d1016ebe4c1a63dd50a59d26bd12db1",
+                "url": "http://13.60.87.2/launcher_update/repo/lib/net/minecraftforge/unsafe/0.2.0/unsafe-0.2.0.jar"
+              }
+            },
+            {
+              "id": "com.electronwill.night-config:core:3.6.3",
+              "name": "Minecraft Forge (core)",
+              "type": "Library",
+              "artifact": {
+                "size": 199091,
+                "MD5": "093b0ca357d3f8b922170b8d7f43948c",
+                "url": "http://13.60.87.2/launcher_update/repo/lib/com/electronwill/night-config/core/3.6.3/core-3.6.3.jar"
+              }
+            },
+            {
+              "id": "com.electronwill.night-config:toml:3.6.3",
+              "name": "Minecraft Forge (toml)",
+              "type": "Library",
+              "artifact": {
+                "size": 31288,
+                "MD5": "615b8e62371c536f876764591990118d",
+                "url": "http://13.60.87.2/launcher_update/repo/lib/com/electronwill/night-config/toml/3.6.3/toml-3.6.3.jar"
+              }
+            },
+            {
+              "id": "org.jline:jline:3.12.1",
+              "name": "Minecraft Forge (jline)",
+              "type": "Library",
+              "artifact": {
+                "size": 732926,
+                "MD5": "ffd8c9d6eb8a8456ef505c8ef9fc777d",
+                "url": "http://13.60.87.2/launcher_update/repo/lib/org/jline/jline/3.12.1/jline-3.12.1.jar"
+              }
+            },
+            {
+              "id": "org.apache.maven:maven-artifact:3.6.3",
+              "name": "Minecraft Forge (maven-artifact)",
+              "type": "Library",
+              "artifact": {
+                "size": 57824,
+                "MD5": "b83c1943a0783f3f81d4cd4c83c363e1",
+                "url": "http://13.60.87.2/launcher_update/repo/lib/org/apache/maven/maven-artifact/3.6.3/maven-artifact-3.6.3.jar"
+              }
+            },
+            {
+              "id": "net.jodah:typetools:0.8.3",
+              "name": "Minecraft Forge (typetools)",
+              "type": "Library",
+              "artifact": {
+                "size": 15425,
+                "MD5": "ee4596e1413cc1a5e080c971d6064753",
+                "url": "http://13.60.87.2/launcher_update/repo/lib/net/jodah/typetools/0.8.3/typetools-0.8.3.jar"
+              }
+            },
+            {
+              "id": "org.apache.logging.log4j:log4j-api:2.15.0",
+              "name": "Minecraft Forge (log4j-api)",
+              "type": "Library",
+              "artifact": {
+                "size": 301804,
+                "MD5": "a9ccfa7e3382dd2b9e0647a43d8286d7",
+                "url": "http://13.60.87.2/launcher_update/repo/lib/org/apache/logging/log4j/log4j-api/2.15.0/log4j-api-2.15.0.jar"
+              }
+            },
+            {
+              "id": "org.apache.logging.log4j:log4j-core:2.15.0",
+              "name": "Minecraft Forge (log4j-core)",
+              "type": "Library",
+              "artifact": {
+                "size": 1789769,
+                "MD5": "81e0433ae00602c0e4d00424d213b0ab",
+                "url": "http://13.60.87.2/launcher_update/repo/lib/org/apache/logging/log4j/log4j-core/2.15.0/log4j-core-2.15.0.jar"
+              }
+            },
+            {
+              "id": "org.apache.logging.log4j:log4j-slf4j18-impl:2.15.0",
+              "name": "Minecraft Forge (log4j-slf4j18-impl)",
+              "type": "Library",
+              "artifact": {
+                "size": 21223,
+                "MD5": "196442f1bdde4dbb0f576eed616e21b0",
+                "url": "http://13.60.87.2/launcher_update/repo/lib/org/apache/logging/log4j/log4j-slf4j18-impl/2.15.0/log4j-slf4j18-impl-2.15.0.jar"
+              }
+            },
+            {
+              "id": "net.minecrell:terminalconsoleappender:1.2.0",
+              "name": "Minecraft Forge (terminalconsoleappender)",
+              "type": "Library",
+              "artifact": {
+                "size": 15977,
+                "MD5": "679363fa893293791e55a21f81342f87",
+                "url": "http://13.60.87.2/launcher_update/repo/lib/net/minecrell/terminalconsoleappender/1.2.0/terminalconsoleappender-1.2.0.jar"
+              }
+            },
+            {
+              "id": "net.sf.jopt-simple:jopt-simple:5.0.4",
+              "name": "Minecraft Forge (jopt-simple)",
+              "type": "Library",
+              "artifact": {
+                "size": 78146,
+                "MD5": "eb0d9dffe9b0eddead68fe678be76c49",
+                "url": "http://13.60.87.2/launcher_update/repo/lib/net/sf/jopt-simple/jopt-simple/5.0.4/jopt-simple-5.0.4.jar"
+              }
+            },
+            {
+              "id": "org.spongepowered:mixin:0.8.4",
+              "name": "Minecraft Forge (mixin)",
+              "type": "Library",
+              "artifact": {
+                "size": 1069391,
+                "MD5": "25fbb8ff965e88cc2252c99be0cf5cbb",
+                "url": "http://13.60.87.2/launcher_update/repo/lib/org/spongepowered/mixin/0.8.4/mixin-0.8.4.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:nashorn-core-compat:15.1.1.1",
+              "name": "Minecraft Forge (nashorn-core-compat)",
+              "type": "Library",
+              "artifact": {
+                "size": 2194057,
+                "MD5": "ae37ed8407982eefc9f85fdb1c95a3a0",
+                "url": "http://13.60.87.2/launcher_update/repo/lib/net/minecraftforge/nashorn-core-compat/15.1.1.1/nashorn-core-compat-15.1.1.1.jar"
+              }
+            }
+          ]
+        },
+        {
+          "id": "com.thevortex:allthemodium:1.5.18-1.16.5-36.1.23@jar",
+          "name": "Allthemodium",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 942119,
+            "url": "http://13.60.87.2/launcher_update/servers/EarthLink-1.16.5/forgemods/required/allthemodium-1.5.18-1.16.5-36.1.23.jar",
+            "MD5": "78618ba4ec92ccc6452d6bc90a277b2d"
+          }
+        },
+        {
+          "id": "squeek.appleskin:appleskin:2.5.1+mc1.16.4@jar",
+          "name": "AppleSkin",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 47721,
+            "url": "http://13.60.87.2/launcher_update/servers/EarthLink-1.16.5/forgemods/required/appleskin-forge-mc1.16.x-2.5.1.jar",
+            "MD5": "37b9c5ad57da680d7a003956aeb4a4a1"
+          }
+        },
+        {
+          "id": "appeng.core:appliedenergistics2:8.4.7@jar",
+          "name": "Applied Energistics 2",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 4820914,
+            "url": "http://13.60.87.2/launcher_update/servers/EarthLink-1.16.5/forgemods/required/appliedenergistics2-8.4.7.jar",
+            "MD5": "c89ee2036b32eaaf3aafc77ec7694524"
+          }
+        },
+        {
+          "id": "me.shedaniel:architectury:1.32.68@jar",
+          "name": "Architectury",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 551889,
+            "url": "http://13.60.87.2/launcher_update/servers/EarthLink-1.16.5/forgemods/required/architectury-1.32.68.jar",
+            "MD5": "74a431a4f1a32ec5bbb4bfeb120887c6"
+          }
+        },
+        {
+          "id": "com.teampotato:autochangefight:0.0.2@jar",
+          "name": "AutoChangeFight",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 3435,
+            "url": "http://13.60.87.2/launcher_update/servers/EarthLink-1.16.5/forgemods/required/autochangefight-0.0.2.jar",
+            "MD5": "4560b4f858275c8f7687ca2cb7c20420"
+          }
+        },
+        {
+          "id": "vazkii.arl:autoreglib:1.6-49@jar",
+          "name": "AutoRegLib",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 57279,
+            "url": "http://13.60.87.2/launcher_update/servers/EarthLink-1.16.5/forgemods/required/AutoRegLib-1.6-49.jar",
+            "MD5": "16302251afc7a757f00899b270cc0fa2"
+          }
+        },
+        {
+          "id": "ballistix:ballistix:1.16.5-0.3.1-0@jar",
+          "name": "Ballistix",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 4929805,
+            "url": "http://13.60.87.2/launcher_update/servers/EarthLink-1.16.5/forgemods/required/Ballistix-1.16.5-0.3.1-0.jar",
+            "MD5": "f949073b82969816db87148f2604d3a7"
+          }
+        },
+        {
+          "id": "net.roguelogix:biggerreactors:0.5.1@jar",
+          "name": "Bigger Reactors",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1147884,
+            "url": "http://13.60.87.2/launcher_update/servers/EarthLink-1.16.5/forgemods/required/biggerreactors-1.16.5-0.5.1.jar",
+            "MD5": "ea7f2a3a99fc32f66a22ad4995272490"
+          }
+        },
+        {
+          "id": "net.darkhax:bookshelf:10.4.33@jar",
+          "name": "Bookshelf",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 317032,
+            "url": "http://13.60.87.2/launcher_update/servers/EarthLink-1.16.5/forgemods/required/Bookshelf-Forge-1.16.5-10.4.33.jar",
+            "MD5": "9f5a57a605dafdd21e48b55fa0aa4fc4"
+          }
+        },
+        {
+          "id": "com.tm.calemiutils.main:calemiutils:1.1.6@jar",
+          "name": "Calemi's Utils",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2534180,
+            "url": "http://13.60.87.2/launcher_update/servers/EarthLink-1.16.5/forgemods/required/CalemiUtils-1.16.5-1.1.6.jar",
+            "MD5": "dc47899511837f01ad6d0f8815f0bc65"
+          }
+        },
+        {
+          "id": "de.maxhenkel:camera:1.16.5-1.0.14@jar",
+          "name": "Camera Mod",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 273299,
+            "url": "http://13.60.87.2/launcher_update/servers/EarthLink-1.16.5/forgemods/required/camera-1.16.5-1.0.14.jar",
+            "MD5": "91f52f8feec00dfe0aed9a851c19b7ea"
+          }
+        },
+        {
+          "id": "tschipp.carryon:carryon:1.15.6.24@jar",
+          "name": "Carry On",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 321769,
+            "url": "http://13.60.87.2/launcher_update/servers/EarthLink-1.16.5/forgemods/required/carryon-1.16.5-1.15.6.24.jar",
+            "MD5": "be95c2cf0df05e8d9a7f594ee040befb"
+          }
+        },
+        {
+          "id": "com.mrcrayfish.furniture:cfm:7.0.0-pre22@jar",
+          "name": "MrCrayfish's Furniture Mod",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2033912,
+            "url": "http://13.60.87.2/launcher_update/servers/EarthLink-1.16.5/forgemods/required/cfm-7.0.0pre22-1.16.3.jar",
+            "MD5": "b2a5f7a361279de6bb5f51246ad36484"
+          }
+        },
+        {
+          "id": "com.mrcrayfish.guns:cgm:1.2.6@jar",
+          "name": "MrCrayfish's Gun Mod",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1607217,
+            "url": "http://13.60.87.2/launcher_update/servers/EarthLink-1.16.5/forgemods/required/cgm-1.2.6-1.16.5.jar",
+            "MD5": "3d15af75addf26471e870654a0c6df87"
+          }
+        },
+        {
+          "id": "com.github.alexthe666:citadel:1.8.1@jar",
+          "name": "Citadel",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 482439,
+            "url": "http://13.60.87.2/launcher_update/servers/EarthLink-1.16.5/forgemods/required/citadel-1.8.1-1.16.5.jar",
+            "MD5": "9ee0682eec5d343c6238e30c21c98e69"
+          }
+        },
+        {
+          "id": "me.shedaniel.clothconfig:cloth-config:4.17.101@jar",
+          "name": "Cloth Config v4 API",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1452545,
+            "url": "http://13.60.87.2/launcher_update/servers/EarthLink-1.16.5/forgemods/required/cloth-config-4.17.101-forge.jar",
+            "MD5": "5cedc05e7502ce5f46067f28eb1798e2"
+          }
+        },
+        {
+          "id": "com.blamejared:clumps:6.0.0.28@jar",
+          "name": "Clumps",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 18397,
+            "url": "http://13.60.87.2/launcher_update/servers/EarthLink-1.16.5/forgemods/required/Clumps-6.0.0.28.jar",
+            "MD5": "0fdfe776ae513bd8a4c7396097ce42e9"
+          }
+        },
+        {
+          "id": "codechicken.lib:codechickenlib:4.0.7.445@jar",
+          "name": "CodeChicken Lib",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 636499,
+            "url": "http://13.60.87.2/launcher_update/servers/EarthLink-1.16.5/forgemods/required/CodeChickenLib-1.16.5-4.0.7.445-universal.jar",
+            "MD5": "0bbfca50118662336bb64592581005eb"
+          }
+        },
+        {
+          "id": "cofh.core:cofh_core:1.5.2.22@jar",
+          "name": "CoFH Core",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1443038,
+            "url": "http://13.60.87.2/launcher_update/servers/EarthLink-1.16.5/forgemods/required/cofh_core-1.16.5-1.5.2.22.jar",
+            "MD5": "975c14d7c4237d845bff570cbc3b495d"
+          }
+        },
+        {
+          "id": "com.torquebolt:colorfularmor:1.7@jar",
+          "name": "Colorful Armor",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1741943,
+            "url": "http://13.60.87.2/launcher_update/servers/EarthLink-1.16.5/forgemods/required/colorfularmor-1.16.5-1.7.jar",
+            "MD5": "fc719a73419ed06611e0f2e17a1e759c"
+          }
+        },
+        {
+          "id": "com.lilypuree:connectiblechains:1.2.0@jar",
+          "name": "Connectible Chains",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 136540,
+            "url": "http://13.60.87.2/launcher_update/servers/EarthLink-1.16.5/forgemods/required/connectiblechains-1.2.0.jar",
+            "MD5": "e456ddb56791ddc26aa937a0c39e069f"
+          }
+        },
+        {
+          "id": "com.blamejared:controlling:7.0.0.31@jar",
+          "name": "Controlling",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 53318,
+            "url": "http://13.60.87.2/launcher_update/servers/EarthLink-1.16.5/forgemods/required/Controlling-7.0.0.31.jar",
+            "MD5": "b8b714631cfa5849e07e0ffd95951602"
+          }
+        },
+        {
+          "id": "de.maxhenkel:corpse:1.16.5-1.0.6@jar",
+          "name": "Corpse",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 203988,
+            "url": "http://13.60.87.2/launcher_update/servers/EarthLink-1.16.5/forgemods/required/corpse-1.16.5-1.0.6.jar",
+            "MD5": "8cbd023ad32c855215ad5cba5325cb3f"
+          }
+        },
+        {
+          "id": "com.ofek2608:crafting_on_a_stick:1.1.0@jar",
+          "name": "Crafting On A Stick",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 33447,
+            "url": "http://13.60.87.2/launcher_update/servers/EarthLink-1.16.5/forgemods/required/crafting-on-a-stick-1.16.5-1.1.0.jar",
+            "MD5": "74b35c942f4b39593391bae20ade5c1d"
+          }
+        },
+        {
+          "id": "com.blamejared:crafttweaker:7.1.2.527@jar",
+          "name": "CraftTweaker",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2506393,
+            "url": "http://13.60.87.2/launcher_update/servers/EarthLink-1.16.5/forgemods/required/CraftTweaker-1.16.5-7.1.2.527.jar",
+            "MD5": "38345da45657830a73939b87b62b2d0d"
+          }
+        },
+        {
+          "id": "com.simibubi:create:v0.3.2g@jar",
+          "name": "Create",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 11564279,
+            "url": "http://13.60.87.2/launcher_update/servers/EarthLink-1.16.5/forgemods/required/create-mc1.16.5_v0.3.2g.jar",
+            "MD5": "84ec13d5bccfa71a09783ecb6e089b20"
+          }
+        },
+        {
+          "id": "com.mrh0:createaddition:1.16.5-20220129a@jar",
+          "name": "Create Crafts & Additions",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 834203,
+            "url": "http://13.60.87.2/launcher_update/servers/EarthLink-1.16.5/forgemods/required/createaddition-1.16.5-20220129a.jar",
+            "MD5": "250fd90a842bb6c1071c58f09ff2febf"
+          }
+        },
+        {
+          "id": "team.creative:creativecore:2.0.0@jar",
+          "name": "CreativeCore",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 631207,
+            "url": "http://13.60.87.2/launcher_update/servers/EarthLink-1.16.5/forgemods/required/CreativeCore_v2.2.1_mc1.16.5.jar",
+            "MD5": "c32d3e1df267d820eb2b1b8e8adb75e1"
+          }
+        },
+        {
+          "id": "com.blakebr0:cucumber:4.1.12@jar",
+          "name": "Cucumber Library",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 158447,
+            "url": "http://13.60.87.2/launcher_update/servers/EarthLink-1.16.5/forgemods/required/Cucumber-1.16.5-4.1.12.jar",
+            "MD5": "1b1e07613fc0b36cb6194a6bd60a4672"
+          }
+        },
+        {
+          "id": "top.theillusivec4:curios:1.16.5-4.1.0.0@jar",
+          "name": "Curios API",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 291897,
+            "url": "http://13.60.87.2/launcher_update/servers/EarthLink-1.16.5/forgemods/required/curios-forge-1.16.5-4.1.0.0.jar",
+            "MD5": "4f71bcd532f9a3c8b051ef30787bd404"
+          }
+        },
+        {
+          "id": "fr.podkin:earthlinkmod:0.2.3@jar",
+          "name": "Earthlink mod",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 23938,
+            "url": "http://13.60.87.2/launcher_update/servers/EarthLink-1.16.5/forgemods/required/Earthlinkmod-0.2.3.jar",
+            "MD5": "414272e655e3891db5cf19269152c4e7"
+          }
+        },
+        {
+          "id": "electrodynamics:electrodynamics:1.16.5-0.5.1-0@jar",
+          "name": "Electrodynamics",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 7038012,
+            "url": "http://13.60.87.2/launcher_update/servers/EarthLink-1.16.5/forgemods/required/Electrodynamics-1.16.5-0.5.1-0.jar",
+            "MD5": "2a06f08e547a232664c29fa803783de2"
+          }
+        },
+        {
+          "id": "team.creative:enhancedvisuals:1.3.0@jar",
+          "name": "EnhancedVisuals",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 3766759,
+            "url": "http://13.60.87.2/launcher_update/servers/EarthLink-1.16.5/forgemods/required/EnhancedVisuals_v1.3.32_mc1.16.5.jar",
+            "MD5": "82d92340a5e10daf8d5619eba9ab9762"
+          }
+        },
+        {
+          "id": "yesman.epicfight.main:epicfight:16.6.5@jar",
+          "name": "Epic Fight",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 4188385,
+            "url": "http://13.60.87.2/launcher_update/servers/EarthLink-1.16.5/forgemods/required/epicfight-16.6.5.jar",
+            "MD5": "d515085c197e9629b47b7b31a9ece305"
+          }
+        },
+        {
+          "id": "de.cheaterpaul:fallingleaves:1.2.4-alpha+20220121-1744@jar",
+          "name": "Falling Leaves",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 114119,
+            "url": "http://13.60.87.2/launcher_update/servers/EarthLink-1.16.5/forgemods/required/Fallingleaves-1.16.3-1.2.4.jar",
+            "MD5": "27665a8c7adc890687e3a7a0b767c7bb"
+          }
+        },
+        {
+          "id": "de.keksuccino:fancymenu:2.14.9@jar",
+          "name": "FancyMenu",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1322894,
+            "url": "http://13.60.87.2/launcher_update/servers/EarthLink-1.16.5/forgemods/required/fancymenu_forge_2.14.9_MC_1.16.2-1.16.5.jar",
+            "MD5": "2c007b61ee2b87f360c2109130efea27"
+          }
+        },
+        {
+          "id": "malte0811.ferritecore:ferritecore:2.1.1@jar",
+          "name": "Ferrite Core",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 108557,
+            "url": "http://13.60.87.2/launcher_update/servers/EarthLink-1.16.5/forgemods/required/ferritecore-2.1.1-forge.jar",
+            "MD5": "6a96a36de00e5d8e9bf2e87634d13125"
+          }
+        },
+        {
+          "id": "com.jozufozu:flywheel:1.16-0.2.5@jar",
+          "name": "Flywheel",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 420923,
+            "url": "http://13.60.87.2/launcher_update/servers/EarthLink-1.16.5/forgemods/required/flywheel-1.16-0.2.5.jar",
+            "MD5": "0964200fddbd4ff67dfab63c5aae161a"
+          }
+        },
+        {
+          "id": "forge.com.rimo:footprintparticle:0.5.1-mc1.16.5@jar",
+          "name": "Footprint Particle",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 91747,
+            "url": "http://13.60.87.2/launcher_update/servers/EarthLink-1.16.5/forgemods/required/footprintparticle-0.5.1-mc1.16.5.jar",
+            "MD5": "8ac59392b7e381cb3d95478fd6fcb57c"
+          }
+        },
+        {
+          "id": "dev.ftb.mods:ftblibrary:1605.3.4-build.90@jar",
+          "name": "FTB Library",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 585125,
+            "url": "http://13.60.87.2/launcher_update/servers/EarthLink-1.16.5/forgemods/required/ftb-library-forge-1605.3.4-build.90.jar",
+            "MD5": "88b4c3497d1aa260481bd74e464a3d70"
+          }
+        },
+        {
+          "id": "dev.ftb.mods:ftbteams:1605.2.3-build.40@jar",
+          "name": "FTB Teams",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 171679,
+            "url": "http://13.60.87.2/launcher_update/servers/EarthLink-1.16.5/forgemods/required/ftb-teams-forge-1605.2.3-build.40.jar",
+            "MD5": "08d807589127eac26626d36ac36d1b21"
+          }
+        },
+        {
+          "id": "immersive_aircraft:immersive_aircraft:0.5.2+1.16.5@jar",
+          "name": "Immersive Aircraft",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1932683,
+            "url": "http://13.60.87.2/launcher_update/servers/EarthLink-1.16.5/forgemods/required/immersive_aircraft-0.5.2+1.16.5-forge.jar",
+            "MD5": "90516523466cb3377be38d89d5644c3c"
+          }
+        },
+        {
+          "id": "com.nameless:impactful:16.6.3@jar",
+          "name": "Impactful",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 34155,
+            "url": "http://13.60.87.2/launcher_update/servers/EarthLink-1.16.5/forgemods/required/impactful-16.6.3.jar",
+            "MD5": "2fccead3a6c7521316c8a1dfe72cb847"
+          }
+        },
+        {
+          "id": "com.jdawg3636:icbm:1.6.0@jar",
+          "name": "Intercontinental Ballistic Redux",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 5776151,
+            "url": "http://13.60.87.2/launcher_update/servers/EarthLink-1.16.5/forgemods/required/Intercontinental%20Ballistic%20Redux-1.16.5-1.6.0-021EE4251.jar",
+            "MD5": "830a3acb795300bf727809886549a27f"
+          }
+        },
+        {
+          "id": "com.progwml6:ironchest:1.16.5-11.2.21@jar",
+          "name": "Iron Chests",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 258298,
+            "url": "http://13.60.87.2/launcher_update/servers/EarthLink-1.16.5/forgemods/required/ironchest-1.16.5-11.2.21.jar",
+            "MD5": "ad813ff46d3c9ba127e1033bfe957758"
+          }
+        },
+        {
+          "id": "ironfurnaces:ironfurnaces:2.7.7@jar",
+          "name": "Iron Furnaces",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 493742,
+            "url": "http://13.60.87.2/launcher_update/servers/EarthLink-1.16.5/forgemods/required/ironfurnaces-1.16.5-2.7.7.jar",
+            "MD5": "14d38f66b4b514aa7b03264c13599489"
+          }
+        },
+        {
+          "id": "com.blakebr0:ironjetpacks:4.2.3@jar",
+          "name": "Iron Jetpacks",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 122319,
+            "url": "http://13.60.87.2/launcher_update/servers/EarthLink-1.16.5/forgemods/required/IronJetpacks-1.16.5-4.2.3.jar",
+            "MD5": "ba0b8306a813f629519c43fdb743145e"
+          }
+        },
+        {
+          "id": "dev.latvian.mods:itemfilters:1605.2.5-build.9@jar",
+          "name": "Item Filters",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 106801,
+            "url": "http://13.60.87.2/launcher_update/servers/EarthLink-1.16.5/forgemods/required/item-filters-forge-1605.2.5-build.9.jar",
+            "MD5": "6e81a16049d7f2a6996cd1b0e97a3b03"
+          }
+        },
+        {
+          "id": "mezz.jei:jei:7.8.0.1009@jar",
+          "name": "Just Enough Items",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 839446,
+            "url": "http://13.60.87.2/launcher_update/servers/EarthLink-1.16.5/forgemods/required/jei-1.16.5-7.8.0.1009.jar",
+            "MD5": "6c7827e443f483cc5e94aaff7c694901"
+          }
+        },
+        {
+          "id": "com.blamejared:jeitweaker:1.1.0.49@jar",
+          "name": "JEI Tweaker",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 151709,
+            "url": "http://13.60.87.2/launcher_update/servers/EarthLink-1.16.5/forgemods/required/JEITweaker-1.16.5-1.1.0.49.jar",
+            "MD5": "6c7ebf18dc1c42f91ee503308fed1e2c"
+          }
+        },
+        {
+          "id": "de.keksuccino:konkrete:1.6.1@jar",
+          "name": "Konkrete",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 643559,
+            "url": "http://13.60.87.2/launcher_update/servers/EarthLink-1.16.5/forgemods/required/konkrete_forge_1.6.1_MC_1.16.2-1.16.5.jar",
+            "MD5": "0d29f39a11641e7d83663dc89148632c"
+          }
+        },
+        {
+          "id": "dev.latvian.kubejs.create:kubejs_create:1605.1.4-build.12@jar",
+          "name": "KubeJS Create",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 10233,
+            "url": "http://13.60.87.2/launcher_update/servers/EarthLink-1.16.5/forgemods/required/kubejs-create-1605.1.4-build.12.jar",
+            "MD5": "cd011b0ddc6b8388ce461c88eb866074"
+          }
+        },
+        {
+          "id": "dev.latvian:kubejs:1605.3.19-build.299@jar",
+          "name": "KubeJS",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 919043,
+            "url": "http://13.60.87.2/launcher_update/servers/EarthLink-1.16.5/forgemods/required/kubejs-forge-1605.3.19-build.299.jar",
+            "MD5": "6996918f81b312c31e7d6ba47c2cd4f3"
+          }
+        },
+        {
+          "id": "dev.latvian.kubejs.thermal:kubejs_thermal:1605.1.4-build.4@jar",
+          "name": "KubeJS Thermal",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 20345,
+            "url": "http://13.60.87.2/launcher_update/servers/EarthLink-1.16.5/forgemods/required/kubejs-thermal-1605.1.4-build.4.jar",
+            "MD5": "85792b9257f2b0c84ebce2fbc0b89b05"
+          }
+        },
+        {
+          "id": "me.steinborn:lazydfu:0.1.3@jar",
+          "name": "LazyDFU",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 15258,
+            "url": "http://13.60.87.2/launcher_update/servers/EarthLink-1.16.5/forgemods/required/lazydfu-0.1.3.jar",
+            "MD5": "fce7920ba6329d631da4025e9322e5e0"
+          }
+        },
+        {
+          "id": "mcjty.lib:mcjtylib:1.16-5.1.8@jar",
+          "name": "McJtyLib",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 648426,
+            "url": "http://13.60.87.2/launcher_update/servers/EarthLink-1.16.5/forgemods/required/mcjtylib-1.16-5.1.8.jar",
+            "MD5": "91de3fb7d6a8f7c032963d28325571d0"
+          }
+        },
+        {
+          "id": "com.mcwbridges.kikoz:mcwbridges:3.0.0@jar",
+          "name": "Macaw's Bridges",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 588272,
+            "url": "http://13.60.87.2/launcher_update/servers/EarthLink-1.16.5/forgemods/required/mcw-bridges-3.0.0-mc1.16.5forge.jar",
+            "MD5": "be473dd21194800e6079c3b4c853c968"
+          }
+        },
+        {
+          "id": "com.mcwfences.kikoz:mcwfences:1.1.1@jar",
+          "name": "Macaw's Fences and Walls",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 378614,
+            "url": "http://13.60.87.2/launcher_update/servers/EarthLink-1.16.5/forgemods/required/mcw-fences-1.1.1-mc1.16.5forge.jar",
+            "MD5": "e4347a9c866d5b4238f9135dc19597ef"
+          }
+        },
+        {
+          "id": "com.mcwlights.kikoz:mcwlights:1.0.6@jar",
+          "name": "Macaw's Lights and Lamps",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 400190,
+            "url": "http://13.60.87.2/launcher_update/servers/EarthLink-1.16.5/forgemods/required/mcw-lights-1.0.6b-mc1.16.5forge.jar",
+            "MD5": "de4d310ea2db77b2781e7c7438fab6ed"
+          }
+        },
+        {
+          "id": "mekanism:mekanism:10.1.2@jar",
+          "name": "Mekanism",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 11181433,
+            "url": "http://13.60.87.2/launcher_update/servers/EarthLink-1.16.5/forgemods/required/Mekanism-1.16.5-10.1.2.457.jar",
+            "MD5": "bcfbd6b2d63020cdbf42b9c2d643b956"
+          }
+        },
+        {
+          "id": "mekanism.generators:mekanismgenerators:10.1.2@jar",
+          "name": "Mekanism: Generators",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 985334,
+            "url": "http://13.60.87.2/launcher_update/servers/EarthLink-1.16.5/forgemods/required/MekanismGenerators-1.16.5-10.1.2.457.jar",
+            "MD5": "8e0854f544510952dda70eb3c840638e"
+          }
+        },
+        {
+          "id": "mekanism.tools:mekanismtools:10.1.2@jar",
+          "name": "Mekanism: Tools",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 368033,
+            "url": "http://13.60.87.2/launcher_update/servers/EarthLink-1.16.5/forgemods/required/MekanismTools-1.16.5-10.1.2.457.jar",
+            "MD5": "7742cf452e949b171884457cedabdce1"
+          }
+        },
+        {
+          "id": "de.maxhenkel.miningdimension:mining_dimension:1.16.5-1.0.6@jar",
+          "name": "Mining World",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 138474,
+            "url": "http://13.60.87.2/launcher_update/servers/EarthLink-1.16.5/forgemods/required/mining_dimension-1.16.5-1.0.6.jar",
+            "MD5": "d4459e6a4f95538e6821afd33dcef513"
+          }
+        },
+        {
+          "id": "org.embeddedt.modernfix.forge.init:modernfix:5.17.0+mc1.16.5@jar",
+          "name": "ModernFix",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 848542,
+            "url": "http://13.60.87.2/launcher_update/servers/EarthLink-1.16.5/forgemods/required/modernfix-forge-5.17.0+mc1.16.5.jar",
+            "MD5": "5fb5a8c8fe5fe13a4205b5877e5cb7ab"
+          }
+        },
+        {
+          "id": "yalter.mousetweaks:mousetweaks:2.14@jar",
+          "name": "Mouse Tweaks",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 58249,
+            "url": "http://13.60.87.2/launcher_update/servers/EarthLink-1.16.5/forgemods/required/MouseTweaks-2.14-mc1.16.2.jar",
+            "MD5": "3b4e04a9a79094149306457c7db838d5"
+          }
+        },
+        {
+          "id": "com.chaosthedude:naturescompass:1.16.5-1.9.1-forge@jar",
+          "name": "Nature's Compass",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 203573,
+            "url": "http://13.60.87.2/launcher_update/servers/EarthLink-1.16.5/forgemods/required/NaturesCompass-1.16.5-1.9.1-forge.jar",
+            "MD5": "1ed5def709b0b9d0f40db32d0877fad0"
+          }
+        },
+        {
+          "id": "dev.tr7zw:notenoughanimations:1.2.4@jar",
+          "name": "NotEnoughAnimations Mod",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 308348,
+            "url": "http://13.60.87.2/launcher_update/servers/EarthLink-1.16.5/forgemods/required/notenoughanimations-1.2.4.jar",
+            "MD5": "bdf41ab36dff9de8353b0f48d9e2326c"
+          }
+        },
+        {
+          "id": "com.mrcrayfish:obfuscate:0.6.3@jar",
+          "name": "Obfuscate",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 142536,
+            "url": "http://13.60.87.2/launcher_update/servers/EarthLink-1.16.5/forgemods/required/obfuscate-0.6.3-1.16.5.jar",
+            "MD5": "514fe4c6c39bc1b7e474d813daab593e"
+          }
+        },
+        {
+          "id": "com.zach2039:oldguns:1.16.5-3.0.7-35@jar",
+          "name": "Old Guns Mod",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1438226,
+            "url": "http://13.60.87.2/launcher_update/servers/EarthLink-1.16.5/forgemods/required/oldguns-1.16.5-3.0.7-35.jar",
+            "MD5": "1ecbeba4d6716cb93182c4dc1e0ef9ee"
+          }
+        },
+        {
+          "id": "com.alrex:parcool:1.16.5-3.2.1.2-R@jar",
+          "name": "ParCool!",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 831670,
+            "url": "http://13.60.87.2/launcher_update/servers/EarthLink-1.16.5/forgemods/required/ParCool-1.16.5-3.2.1.2-R.jar",
+            "MD5": "2ea583e585756dcbc1f124f5810def57"
+          }
+        },
+        {
+          "id": "vazkii.patchouli.common.base:patchouli:1.16.4-53.3@jar",
+          "name": "Patchouli",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 593352,
+            "url": "http://13.60.87.2/launcher_update/servers/EarthLink-1.16.5/forgemods/required/Patchouli-1.16.4-53.3.jar",
+            "MD5": "a4791ba66914beed9bb755ae1a84ca87"
+          }
+        },
+        {
+          "id": "net.roguelogix:phosphophyllite:0.5.1@jar",
+          "name": "Phosphophyllite",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1077059,
+            "url": "http://13.60.87.2/launcher_update/servers/EarthLink-1.16.5/forgemods/required/phosphophyllite-1.16.5-0.5.1.jar",
+            "MD5": "c01affc5ae48fe3348d3c8b6d84e1533"
+          }
+        },
+        {
+          "id": "blackwolf00.portablecraftingtable:portablecraftingtable:1.1.0@jar",
+          "name": "Portable Crafting Table",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 18208,
+            "url": "http://13.60.87.2/launcher_update/servers/EarthLink-1.16.5/forgemods/required/PortableCraftingTable-1.16.5-1.1.0.jar",
+            "MD5": "3f667a6ea66180a2db9014383e44681b"
+          }
+        },
+        {
+          "id": "eu.ha3:presencefootsteps:r29-1.16.4@jar",
+          "name": "Presence Footsteps",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 7072989,
+            "url": "http://13.60.87.2/launcher_update/servers/EarthLink-1.16.5/forgemods/required/presencefootsteps-r29-1.16.4.jar",
+            "MD5": "b2343bc8ceb93f13764f802d9aea9ed9"
+          }
+        },
+        {
+          "id": "qualityoflifetransmutations:quality_of_life_transmutations:1.0.0@jar",
+          "name": "Quality of life transmutations",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 19747,
+            "url": "http://13.60.87.2/launcher_update/servers/EarthLink-1.16.5/forgemods/required/Quality%20of%20Life%20Transmutations.jar",
+            "MD5": "7276571e1602a151c6390d47a5aba158"
+          }
+        },
+        {
+          "id": "vazkii.quark.base:quark:r2.4-322@jar",
+          "name": "Quark",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 8796901,
+            "url": "http://13.60.87.2/launcher_update/servers/EarthLink-1.16.5/forgemods/required/Quark-r2.4-322.jar",
+            "MD5": "1144d99278adcedb6bfac69842fbdf48"
+          }
+        },
+        {
+          "id": "com.mcmoddev:randomspawns:1.16.5-1.0.0@jar",
+          "name": "Randomized Spawns",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 8424,
+            "url": "http://13.60.87.2/launcher_update/servers/EarthLink-1.16.5/forgemods/required/RandomSpawns-1.16.5-1.0.0.jar",
+            "MD5": "3962ab29d3089e3f1bc4d3b52d292b57"
+          }
+        },
+        {
+          "id": "mcjty.rftoolsbase:rftoolsbase:1.16-2.1.5@jar",
+          "name": "RFToolsBase",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 415673,
+            "url": "http://13.60.87.2/launcher_update/servers/EarthLink-1.16.5/forgemods/required/rftoolsbase-1.16-2.1.5.jar",
+            "MD5": "d226cb35eec153002ee95a8e4e0f3280"
+          }
+        },
+        {
+          "id": "mcjty.rftoolsbuilder:rftoolsbuilder:1.16-3.1.11@jar",
+          "name": "RFToolsBuilder",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 540470,
+            "url": "http://13.60.87.2/launcher_update/servers/EarthLink-1.16.5/forgemods/required/rftoolsbuilder-1.16-3.1.11.jar",
+            "MD5": "109b3b304a138034681f5d9853c62431"
+          }
+        },
+        {
+          "id": "mcjty.rftoolsstorage:rftoolsstorage:1.16-2.0.19@jar",
+          "name": "RFToolsStorage",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 364972,
+            "url": "http://13.60.87.2/launcher_update/servers/EarthLink-1.16.5/forgemods/required/rftoolsstorage-1.16-2.0.19.jar",
+            "MD5": "da2f2384fd71c3da0671ae4f5e2da9c1"
+          }
+        },
+        {
+          "id": "dev.latvian.mods.rhino.mod:rhino:1605.1.5-build.75@jar",
+          "name": "Rhino",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1030440,
+            "url": "http://13.60.87.2/launcher_update/servers/EarthLink-1.16.5/forgemods/required/rhino-forge-1605.1.5-build.75.jar",
+            "MD5": "755de4e8b6fb352d979c7900894de29c"
+          }
+        },
+        {
+          "id": "me.flashyreese.mods:sodiumextra:0.4.18+mc1.16.5-build.107@jar",
+          "name": "Rubidium Extra",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 313734,
+            "url": "http://13.60.87.2/launcher_update/servers/EarthLink-1.16.5/forgemods/required/rubidium-extra-0.4.18+mc1.16.5-build.107.jar",
+            "MD5": "487bea7026df58a87fa3582b17c5ddcc"
+          }
+        },
+        {
+          "id": "me.jellysquid.mods.sodium.client:rubidium:0.2.13@jar",
+          "name": "Rubidium",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 625052,
+            "url": "http://13.60.87.2/launcher_update/servers/EarthLink-1.16.5/forgemods/required/rubidium-mc1.16.5-0.2.13.jar",
+            "MD5": "908bbd1fd7b988bc61d685344e6de496"
+          }
+        },
+        {
+          "id": "com.blamejared:searchables:1.0.7@jar",
+          "name": "Searchables",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 82181,
+            "url": "http://13.60.87.2/launcher_update/servers/EarthLink-1.16.5/forgemods/required/Searchables-forge-1.16.5-1.0.7.jar",
+            "MD5": "cb8ead007f42969812801258ea50a847"
+          }
+        },
+        {
+          "id": "sereneseasons.core:sereneseasons:1.16.5-4.0.1.130@jar",
+          "name": "Serene Seasons",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 148212,
+            "url": "http://13.60.87.2/launcher_update/servers/EarthLink-1.16.5/forgemods/required/SereneSeasons-1.16.5-4.0.1.130-universal.jar",
+            "MD5": "34a4d82a477943580601580785dcc5e1"
+          }
+        },
+        {
+          "id": "wolforce.simpleshops:simpleshops:1.1.3@jar",
+          "name": "Simple Shops",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 114137,
+            "url": "http://13.60.87.2/launcher_update/servers/EarthLink-1.16.5/forgemods/required/simpleshops-1.1.3.jar",
+            "MD5": "fb650ce5cf978d5ab09cad91e00006ad"
+          }
+        },
+        {
+          "id": "net.skds.core:skds_core:0.2.0@jar",
+          "name": "SKDS Core",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 103808,
+            "url": "http://13.60.87.2/launcher_update/servers/EarthLink-1.16.5/forgemods/required/skds_core-1.16.5-0.2.0.jar",
+            "MD5": "ee64664e045941d92c281ec6016b9450"
+          }
+        },
+        {
+          "id": "com.talhanation:smallships:1.10.1@jar",
+          "name": "Small Ships Mod",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2400243,
+            "url": "http://13.60.87.2/launcher_update/servers/EarthLink-1.16.5/forgemods/required/smallships-1.16.5-1.10.1.jar",
+            "MD5": "d29343cb93fc48215f9a2db7a0495df2"
+          }
+        },
+        {
+          "id": "net.p3pp3rf1y:sophisticatedbackpacks:1.16.5-3.15.20.755@jar",
+          "name": "Sophisticated Backpacks",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1485777,
+            "url": "http://13.60.87.2/launcher_update/servers/EarthLink-1.16.5/forgemods/required/sophisticatedbackpacks-1.16.5-3.15.20.755.jar",
+            "MD5": "37e2d08e35a1ce66435351e5dc1377ec"
+          }
+        },
+        {
+          "id": "tcb.spiderstpo:spiderstpo:1.0.4@jar",
+          "name": "Spiders 2.0",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 113618,
+            "url": "http://13.60.87.2/launcher_update/servers/EarthLink-1.16.5/forgemods/required/spiders-2.0-1.16.4-1.0.4.jar",
+            "MD5": "7963d36c13dfd041928675e9b0b5db72"
+          }
+        },
+        {
+          "id": "com.jaquadro.minecraft:storagedrawers:8.5.2@jar",
+          "name": "Storage Drawers",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 575188,
+            "url": "http://13.60.87.2/launcher_update/servers/EarthLink-1.16.5/forgemods/required/StorageDrawers-1.16.3-8.5.2.jar",
+            "MD5": "55d1f8f16010ed6ead36c4b985f2b67b"
+          }
+        },
+        {
+          "id": "com.supermartijn642.core:supermartijn642corelib:1.1.17a@jar",
+          "name": "SuperMartijn642's Core Lib",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 500916,
+            "url": "http://13.60.87.2/launcher_update/servers/EarthLink-1.16.5/forgemods/required/supermartijn642corelib-1.1.17a-forge-mc1.16.jar",
+            "MD5": "05b31bffb6edc47f0b5c17a72f55da69"
+          }
+        },
+        {
+          "id": "com.tac.guns:tac:0.3.14.2@jar",
+          "name": "Timeless and Classics Guns",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 43320575,
+            "url": "http://13.60.87.2/launcher_update/servers/EarthLink-1.16.5/forgemods/required/tac-release-0.3.14.2-1.16.5.jar",
+            "MD5": "ad52fa4804a4600028c0b0b675ceca39"
+          }
+        },
+        {
+          "id": "cofh.thermal.cultivation:thermal_cultivation:1.5.0.4@jar",
+          "name": "Thermal Cultivation",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 663253,
+            "url": "http://13.60.87.2/launcher_update/servers/EarthLink-1.16.5/forgemods/required/thermal_cultivation-1.16.5-1.5.0.4.jar",
+            "MD5": "f7f4f805f33072d84bc8b1d5f2b46978"
+          }
+        },
+        {
+          "id": "cofh.thermal.expansion:thermal_expansion:1.5.2.16@jar",
+          "name": "Thermal Expansion",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 709664,
+            "url": "http://13.60.87.2/launcher_update/servers/EarthLink-1.16.5/forgemods/required/thermal_expansion-1.16.5-1.5.2.16.jar",
+            "MD5": "faf4c22d41149e2694bf9eee5f7ef35a"
+          }
+        },
+        {
+          "id": "cofh.thermal.core:thermal:1.5.2.30@jar",
+          "name": "Thermal Series",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 5038968,
+            "url": "http://13.60.87.2/launcher_update/servers/EarthLink-1.16.5/forgemods/required/thermal_foundation-1.16.5-1.5.2.30.jar",
+            "MD5": "5b3a372139dd4225f25e46a77a32dbab"
+          }
+        },
+        {
+          "id": "cofh.thermal.innovation:thermal_innovation:1.5.0.4@jar",
+          "name": "Thermal Innovation",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 229334,
+            "url": "http://13.60.87.2/launcher_update/servers/EarthLink-1.16.5/forgemods/required/thermal_innovation-1.16.5-1.5.0.4.jar",
+            "MD5": "e0df9d40ee54d825eaa5240b9c42c573"
+          }
+        },
+        {
+          "id": "cofh.thermal.locomotion:thermal_locomotion:1.5.0.4@jar",
+          "name": "Thermal Locomotion",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 200738,
+            "url": "http://13.60.87.2/launcher_update/servers/EarthLink-1.16.5/forgemods/required/thermal_locomotion-1.16.5-1.5.0.4.jar",
+            "MD5": "1aeb0713fa4122e559c8d4e3297e26ed"
+          }
+        },
+        {
+          "id": "mrthomas20121.thermal_extra:thermal_extra:1.0.5@jar",
+          "name": "Thermal: Extra",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 395720,
+            "url": "http://13.60.87.2/launcher_update/servers/EarthLink-1.16.5/forgemods/required/ThermalExtra%201.16.5-1.0.5.jar",
+            "MD5": "1892ffc22d098e9c8e08dee32d9714ce"
+          }
+        },
+        {
+          "id": "dev.tr7zw:transliterationlib:1.0.4@jar",
+          "name": "TRansliterationLib Mod",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 922991,
+            "url": "http://13.60.87.2/launcher_update/servers/EarthLink-1.16.5/forgemods/required/TRansliterationLib-1.0.4.jar",
+            "MD5": "59f38e590dc30a6ec438d4ded004dd6d"
+          }
+        },
+        {
+          "id": "ht.treechop:treechop:0.14.6@jar",
+          "name": "HT's TreeChop",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 252462,
+            "url": "http://13.60.87.2/launcher_update/servers/EarthLink-1.16.5/forgemods/required/TreeChop-1.16.4-0.14.6-fixed.jar",
+            "MD5": "53129f4aa058574c88362364ad6ff873"
+          }
+        },
+        {
+          "id": "cech12.usefulhats:usefulhats:1.16.5-1.10.1.0@jar",
+          "name": "Useful Hats",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 210240,
+            "url": "http://13.60.87.2/launcher_update/servers/EarthLink-1.16.5/forgemods/required/usefulhats-1.16.5-1.10.1.0.jar",
+            "MD5": "ce8339ac07d71e176d173282b7fa18f6"
+          }
+        },
+        {
+          "id": "insane96mcp.vulcanite:vulcanite:2.2.2-mc1.16.5@jar",
+          "name": "Vulcanite",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 195640,
+            "url": "http://13.60.87.2/launcher_update/servers/EarthLink-1.16.5/forgemods/required/Vulcanite-2.2.2-mc1.16.5.jar",
+            "MD5": "4d6bb4d61ab9366733c7650ac442f7c3"
+          }
+        },
+        {
+          "id": "com.dainxt:weaponthrow:1.16.4-5.7@jar",
+          "name": "Weapon Throw",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 83042,
+            "url": "http://13.60.87.2/launcher_update/servers/EarthLink-1.16.5/forgemods/required/WeaponThrow-1.16.4-5.7.jar",
+            "MD5": "4b43ebd1a66ae0fa604236164f24dbfc"
+          }
+        },
+        {
+          "id": "xaero.minimap:xaerominimap:24.1.1@jar",
+          "name": "Xaero's Minimap",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1332278,
+            "url": "http://13.60.87.2/launcher_update/servers/EarthLink-1.16.5/forgemods/required/Xaeros_Minimap_24.1.1_Forge_1.16.5.jar",
+            "MD5": "1391071a6ade75f02c8ed8d7330c8c08"
+          }
+        },
+        {
+          "id": "xaero.map:xaeroworldmap:1.38.4@jar",
+          "name": "Xaero's World Map",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 805011,
+            "url": "http://13.60.87.2/launcher_update/servers/EarthLink-1.16.5/forgemods/required/XaerosWorldMap_1.38.4_Forge_1.16.5.jar",
+            "MD5": "3a9514ab4a8372ac3ed22088558ae49d"
+          }
+        },
+        {
+          "id": "com.zimonishim:ziheasymodding:1.2.1@jar",
+          "name": "ZIHEasyModding",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 460579,
+            "url": "http://13.60.87.2/launcher_update/servers/EarthLink-1.16.5/forgemods/required/ziheasymodding-1.2.1.jar",
+            "MD5": "1742816a54c066699bba31db5f9a0150"
+          }
+        },
+        {
+          "id": "epicfight-client.toml",
+          "name": "epicfight-client.toml",
+          "type": "File",
+          "artifact": {
+            "size": 147115,
+            "url": "http://13.60.87.2/launcher_update/servers/EarthLink-1.16.5/files/config/epicfight-client.toml",
+            "MD5": "f23f492a4fc0aa2295d5b363d7ff8a10",
+            "path": "config/epicfight-client.toml"
+          }
+        },
+        {
+          "id": "epicfight.toml",
+          "name": "epicfight.toml",
+          "type": "File",
+          "artifact": {
+            "size": 232,
+            "url": "http://13.60.87.2/launcher_update/servers/EarthLink-1.16.5/files/config/epicfight.toml",
+            "MD5": "dafd78aa999adc34ea33b4c103c3c31d",
+            "path": "config/epicfight.toml"
+          }
+        },
+        {
+          "id": "config.txt",
+          "name": "config.txt",
+          "type": "File",
+          "artifact": {
+            "size": 1729,
+            "url": "http://13.60.87.2/launcher_update/servers/EarthLink-1.16.5/files/config/fancymenu/config.txt",
+            "MD5": "9d7b074232c3b11bae5720b404fa0938",
+            "path": "config/fancymenu/config.txt"
+          }
+        },
+        {
+          "id": "customizablemenus.txt",
+          "name": "customizablemenus.txt",
+          "type": "File",
+          "artifact": {
+            "size": 623,
+            "url": "http://13.60.87.2/launcher_update/servers/EarthLink-1.16.5/files/config/fancymenu/customizablemenus.txt",
+            "MD5": "b1ca14047900e9bd3b7a6509b6017daf",
+            "path": "config/fancymenu/customizablemenus.txt"
+          }
+        },
+        {
+          "id": "chatoptions.txt",
+          "name": "chatoptions.txt",
+          "type": "File",
+          "artifact": {
+            "size": 354,
+            "url": "http://13.60.87.2/launcher_update/servers/EarthLink-1.16.5/files/config/fancymenu/customization/chatoptions.txt",
+            "MD5": "75c38927dfb575784d304538d98c9c7e",
+            "path": "config/fancymenu/customization/chatoptions.txt"
+          }
+        },
+        {
+          "id": "de.txt",
+          "name": "de.txt",
+          "type": "File",
+          "artifact": {
+            "size": 1238,
+            "url": "http://13.60.87.2/launcher_update/servers/EarthLink-1.16.5/files/config/fancymenu/customization/de.txt",
+            "MD5": "c4ed23673c81bcb8234bec435c55db1b",
+            "path": "config/fancymenu/customization/de.txt"
+          }
+        },
+        {
+          "id": "earthlink.txt",
+          "name": "earthlink.txt",
+          "type": "File",
+          "artifact": {
+            "size": 7110,
+            "url": "http://13.60.87.2/launcher_update/servers/EarthLink-1.16.5/files/config/fancymenu/customization/earthlink.txt",
+            "MD5": "e4bca262c1e2425576f8f3e432023aad",
+            "path": "config/fancymenu/customization/earthlink.txt"
+          }
+        },
+        {
+          "id": "earthlinkconnect.txt",
+          "name": "earthlinkconnect.txt",
+          "type": "File",
+          "artifact": {
+            "size": 421,
+            "url": "http://13.60.87.2/launcher_update/servers/EarthLink-1.16.5/files/config/fancymenu/customization/earthlinkconnect.txt",
+            "MD5": "e4c2142243716edcee1ad06cb7cce7e8",
+            "path": "config/fancymenu/customization/earthlinkconnect.txt"
+          }
+        },
+        {
+          "id": "earthlinkdirtmessage.txt",
+          "name": "earthlinkdirtmessage.txt",
+          "type": "File",
+          "artifact": {
+            "size": 354,
+            "url": "http://13.60.87.2/launcher_update/servers/EarthLink-1.16.5/files/config/fancymenu/customization/earthlinkdirtmessage.txt",
+            "MD5": "e07d57749107e4ff99e2a6b5e7a16936",
+            "path": "config/fancymenu/customization/earthlinkdirtmessage.txt"
+          }
+        },
+        {
+          "id": "earthlinkloading.txt",
+          "name": "earthlinkloading.txt",
+          "type": "File",
+          "artifact": {
+            "size": 358,
+            "url": "http://13.60.87.2/launcher_update/servers/EarthLink-1.16.5/files/config/fancymenu/customization/earthlinkloading.txt",
+            "MD5": "780f8dcf498ec93b05312df6b1069fa4",
+            "path": "config/fancymenu/customization/earthlinkloading.txt"
+          }
+        },
+        {
+          "id": "earthlinkloading2.txt",
+          "name": "earthlinkloading2.txt",
+          "type": "File",
+          "artifact": {
+            "size": 350,
+            "url": "http://13.60.87.2/launcher_update/servers/EarthLink-1.16.5/files/config/fancymenu/customization/earthlinkloading2.txt",
+            "MD5": "225498ce6e22bbd369b8f8bc643ffce3",
+            "path": "config/fancymenu/customization/earthlinkloading2.txt"
+          }
+        },
+        {
+          "id": "keys.txt",
+          "name": "keys.txt",
+          "type": "File",
+          "artifact": {
+            "size": 351,
+            "url": "http://13.60.87.2/launcher_update/servers/EarthLink-1.16.5/files/config/fancymenu/customization/keys.txt",
+            "MD5": "3f6815f04047b208bc9f02ed5f309673",
+            "path": "config/fancymenu/customization/keys.txt"
+          }
+        },
+        {
+          "id": "option.txt",
+          "name": "option.txt",
+          "type": "File",
+          "artifact": {
+            "size": 356,
+            "url": "http://13.60.87.2/launcher_update/servers/EarthLink-1.16.5/files/config/fancymenu/customization/option.txt",
+            "MD5": "61f9903e85e8f35890e19d261b180fb1",
+            "path": "config/fancymenu/customization/option.txt"
+          }
+        },
+        {
+          "id": "options.txt",
+          "name": "options.txt",
+          "type": "File",
+          "artifact": {
+            "size": 1376,
+            "url": "http://13.60.87.2/launcher_update/servers/EarthLink-1.16.5/files/config/fancymenu/customization/options.txt",
+            "MD5": "1322f0e9ff393de0eb62fd249e0c5abf",
+            "path": "config/fancymenu/customization/options.txt"
+          }
+        },
+        {
+          "id": "volume.txt",
+          "name": "volume.txt",
+          "type": "File",
+          "artifact": {
+            "size": 424,
+            "url": "http://13.60.87.2/launcher_update/servers/EarthLink-1.16.5/files/config/fancymenu/customization/volume.txt",
+            "MD5": "9ea52ddac8d5686a9bdac9db109e0c23",
+            "path": "config/fancymenu/customization/volume.txt"
+          }
+        },
+        {
+          "id": "de_de.local",
+          "name": "de_de.local",
+          "type": "File",
+          "artifact": {
+            "size": 27376,
+            "url": "http://13.60.87.2/launcher_update/servers/EarthLink-1.16.5/files/config/fancymenu/locals/de_de.local",
+            "MD5": "f43e602abc1b3081611a3ee39efa0bdd",
+            "path": "config/fancymenu/locals/de_de.local"
+          }
+        },
+        {
+          "id": "en_us.local",
+          "name": "en_us.local",
+          "type": "File",
+          "artifact": {
+            "size": 113824,
+            "url": "http://13.60.87.2/launcher_update/servers/EarthLink-1.16.5/files/config/fancymenu/locals/en_us.local",
+            "MD5": "320e2ec6fee20689004105d94cd809af",
+            "path": "config/fancymenu/locals/en_us.local"
+          }
+        },
+        {
+          "id": "pl_pl.local",
+          "name": "pl_pl.local",
+          "type": "File",
+          "artifact": {
+            "size": 13858,
+            "url": "http://13.60.87.2/launcher_update/servers/EarthLink-1.16.5/files/config/fancymenu/locals/pl_pl.local",
+            "MD5": "22c68afab02c97f21832b904a5e4413c",
+            "path": "config/fancymenu/locals/pl_pl.local"
+          }
+        },
+        {
+          "id": "pt_br.local",
+          "name": "pt_br.local",
+          "type": "File",
+          "artifact": {
+            "size": 14283,
+            "url": "http://13.60.87.2/launcher_update/servers/EarthLink-1.16.5/files/config/fancymenu/locals/pt_br.local",
+            "MD5": "9a91316e7c6e61a7a1e0874f34f77482",
+            "path": "config/fancymenu/locals/pt_br.local"
+          }
+        },
+        {
+          "id": "ru_ru.local",
+          "name": "ru_ru.local",
+          "type": "File",
+          "artifact": {
+            "size": 155574,
+            "url": "http://13.60.87.2/launcher_update/servers/EarthLink-1.16.5/files/config/fancymenu/locals/ru_ru.local",
+            "MD5": "06d4d09969aa81e24ad92ab8d00b178c",
+            "path": "config/fancymenu/locals/ru_ru.local"
+          }
+        },
+        {
+          "id": "uk_ua.local",
+          "name": "uk_ua.local",
+          "type": "File",
+          "artifact": {
+            "size": 147984,
+            "url": "http://13.60.87.2/launcher_update/servers/EarthLink-1.16.5/files/config/fancymenu/locals/uk_ua.local",
+            "MD5": "617020e85943f6f8e44662d128945f46",
+            "path": "config/fancymenu/locals/uk_ua.local"
+          }
+        },
+        {
+          "id": "zh_cn.local",
+          "name": "zh_cn.local",
+          "type": "File",
+          "artifact": {
+            "size": 52106,
+            "url": "http://13.60.87.2/launcher_update/servers/EarthLink-1.16.5/files/config/fancymenu/locals/zh_cn.local",
+            "MD5": "20a74fbf1560def5e5528b78fb30fbfe",
+            "path": "config/fancymenu/locals/zh_cn.local"
+          }
+        },
+        {
+          "id": "menu_identifiers.db",
+          "name": "menu_identifiers.db",
+          "type": "File",
+          "artifact": {
+            "size": 10497,
+            "url": "http://13.60.87.2/launcher_update/servers/EarthLink-1.16.5/files/config/fancymenu/menu_identifiers.db",
+            "MD5": "7ea7268db5d58f0ed6b4ffe8bec943b9",
+            "path": "config/fancymenu/menu_identifiers.db"
+          }
+        },
+        {
+          "id": "earth_1-500_osm-based_with-features_1-16-5.png",
+          "name": "earth_1-500_osm-based_with-features_1-16-5.png",
+          "type": "File",
+          "artifact": {
+            "size": 670770605,
+            "url": "http://13.60.87.2/launcher_update/servers/EarthLink-1.16.5/files/config/fancymenu/panoramas/earth_1-500_osm-based_with-features_1-16-5.png",
+            "MD5": "0a7e720e2548ca2c30ada1cbba0f2b8d",
+            "path": "config/fancymenu/panoramas/earth_1-500_osm-based_with-features_1-16-5.png"
+          }
+        },
+        {
+          "id": "user_variables.db",
+          "name": "user_variables.db",
+          "type": "File",
+          "artifact": {
+            "size": 40,
+            "url": "http://13.60.87.2/launcher_update/servers/EarthLink-1.16.5/files/config/fancymenu/user_variables.db",
+            "MD5": "eec0f310caf96daa823c26b23cdc031a",
+            "path": "config/fancymenu/user_variables.db"
+          }
+        },
+        {
+          "id": "bg1.png",
+          "name": "bg1.png",
+          "type": "File",
+          "artifact": {
+            "size": 1766531,
+            "url": "http://13.60.87.2/launcher_update/servers/EarthLink-1.16.5/files/fancymenu_data/bg1.png",
+            "MD5": "df70ed59b7ad2b4a158cbdc54f888932",
+            "path": "fancymenu_data/bg1.png"
+          }
+        },
+        {
+          "id": "last_world.fmdata",
+          "name": "last_world.fmdata",
+          "type": "File",
+          "artifact": {
+            "size": 91,
+            "url": "http://13.60.87.2/launcher_update/servers/EarthLink-1.16.5/files/fancymenu_data/last_world.fmdata",
+            "MD5": "c0426efa0ec681fa6eb6d708552cc0da",
+            "path": "fancymenu_data/last_world.fmdata"
+          }
+        },
+        {
+          "id": "options.txt",
+          "name": "options.txt",
+          "type": "File",
+          "artifact": {
+            "size": 12636,
+            "url": "http://13.60.87.2/launcher_update/servers/EarthLink-1.16.5/files/options.txt",
+            "MD5": "b15c537e9af87777dadc6465d70a8ce3",
+            "path": "options.txt"
+          }
+        },
+        {
+          "id": "Darkvox's pack.zip",
+          "name": "Darkvox's pack.zip",
+          "type": "File",
+          "artifact": {
+            "size": 1229165,
+            "url": "http://13.60.87.2/launcher_update/servers/EarthLink-1.16.5/files/resourcepacks/Darkvox's%20pack.zip",
+            "MD5": "fdeda7f9aa516ecad3a1939d6432820d",
+            "path": "resourcepacks/Darkvox's pack.zip"
+          }
+        },
+        {
+          "id": "Quark Programmer Art.zip",
+          "name": "Quark Programmer Art.zip",
+          "type": "File",
+          "artifact": {
+            "size": 266417,
+            "url": "http://13.60.87.2/launcher_update/servers/EarthLink-1.16.5/files/resourcepacks/Quark%20Programmer%20Art.zip",
+            "MD5": "24f2237d43e6e0b9b13b31ed36d7e183",
+            "path": "resourcepacks/Quark Programmer Art.zip"
+          }
+        }
+      ]
+    },
+    {
+      "id": "EarthLink_Vision-1.19.3",
+      "name": "EarthLink_Vision Alpha1",
+      "description": "Version Vanilla de Earthlink !",
+      "icon": "http://13.60.87.2/launcher_update/images/earthlinkVision.png",
+      "version": "0.0.1",
+      "address": "vision.earthlink-minecraft.fr",
+      "minecraftVersion": "1.19.3",
+      "discord": {
+        "shortId": "EarthLink_Vision-1.19.3",
+        "largeImageText": "Bonjour",
+        "largeImageKey": "forge-minecraft"
+      },
+      "mainServer": false,
+      "autoconnect": false,
+      "modules": [
+        {
+          "id": "net.minecraftforge:lowcodelanguage:1.19.3-44.1.23",
+          "name": "Minecraft Forge (lowcodelanguage)",
+          "type": "ForgeHosted",
+          "classpath": true,
+          "artifact": {
+            "size": 7377,
+            "MD5": "3a4c4aa69161289dcd6ce4b7bf996eec",
+            "url": "http://13.60.87.2/launcher_update/repo/lib/net/minecraftforge/lowcodelanguage/1.19.3-44.1.23/lowcodelanguage-1.19.3-44.1.23.jar"
+          },
+          "subModules": [
+            {
+              "id": "1.19.3-44.1.23",
+              "name": "Minecraft Forge (version.json)",
+              "type": "VersionManifest",
+              "artifact": {
+                "size": 15504,
+                "MD5": "788d5338ff8d7f88505687df452a0589",
+                "url": "http://13.60.87.2/launcher_update/repo/versions/1.19.3-forge-44.1.23/1.19.3-forge-44.1.23.json"
+              }
+            },
+            {
+              "id": "net.minecraftforge:fmlcore:1.19.3-44.1.23",
+              "name": "Minecraft Forge (fmlcore)",
+              "type": "Library",
+              "classpath": true,
+              "artifact": {
+                "size": 113449,
+                "MD5": "b8013fae6e0dac2f26d842a7598696df",
+                "url": "http://13.60.87.2/launcher_update/repo/lib/net/minecraftforge/fmlcore/1.19.3-44.1.23/fmlcore-1.19.3-44.1.23.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraftforge:javafmllanguage:1.19.3-44.1.23",
+              "name": "Minecraft Forge (javafmllanguage)",
+              "type": "Library",
+              "classpath": true,
+              "artifact": {
+                "size": 16351,
+                "MD5": "c3a8ff96c5f5271086dfe1a6a90f8429",
+                "url": "http://13.60.87.2/launcher_update/repo/lib/net/minecraftforge/javafmllanguage/1.19.3-44.1.23/javafmllanguage-1.19.3-44.1.23.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraftforge:mclanguage:1.19.3-44.1.23",
+              "name": "Minecraft Forge (mclanguage)",
+              "type": "Library",
+              "classpath": true,
+              "artifact": {
+                "size": 4986,
+                "MD5": "a9886fbf26a734fbb786bb50e8a53483",
+                "url": "http://13.60.87.2/launcher_update/repo/lib/net/minecraftforge/mclanguage/1.19.3-44.1.23/mclanguage-1.19.3-44.1.23.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraftforge:forge:1.19.3-44.1.23:universal",
+              "name": "Minecraft Forge (universal jar)",
+              "type": "Library",
+              "classpath": false,
+              "artifact": {
+                "size": 2654364,
+                "MD5": "8cd028f38661ba1a92d4584769af3893",
+                "url": "http://13.60.87.2/launcher_update/repo/lib/net/minecraftforge/forge/1.19.3-44.1.23/forge-1.19.3-44.1.23-universal.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraftforge:forge:1.19.3-44.1.23:client",
+              "name": "Minecraft Forge (client jar)",
+              "type": "Library",
+              "classpath": false,
+              "artifact": {
+                "size": 5338403,
+                "MD5": "7ff5a9202bd33a753a4e125675530213",
+                "url": "http://13.60.87.2/launcher_update/repo/lib/net/minecraftforge/forge/1.19.3-44.1.23/forge-1.19.3-44.1.23-client.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraft:client:1.19.3-20221207.122022:srg",
+              "name": "Minecraft Forge (client srg)",
+              "type": "Library",
+              "classpath": false,
+              "artifact": {
+                "size": 18041472,
+                "MD5": "3418fd778c6b25047922060ee2d2f38b",
+                "url": "http://13.60.87.2/launcher_update/repo/lib/net/minecraft/client/1.19.3-20221207.122022/client-1.19.3-20221207.122022-srg.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraft:client:1.19.3-20221207.122022:slim",
+              "name": "Minecraft Forge (client slim)",
+              "type": "Library",
+              "classpath": false,
+              "artifact": {
+                "size": 12074492,
+                "MD5": "49f0a5f025c4b6024e2baae904306b04",
+                "url": "http://13.60.87.2/launcher_update/repo/lib/net/minecraft/client/1.19.3-20221207.122022/client-1.19.3-20221207.122022-slim.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraft:client:1.19.3-20221207.122022:extra",
+              "name": "Minecraft Forge (client extra)",
+              "type": "Library",
+              "classpath": false,
+              "artifact": {
+                "size": 10629718,
+                "MD5": "6bda458a7cc4ea9822f1d4d233f4b10b",
+                "url": "http://13.60.87.2/launcher_update/repo/lib/net/minecraft/client/1.19.3-20221207.122022/client-1.19.3-20221207.122022-extra.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "cpw.mods:securejarhandler:2.1.6",
+              "name": "Minecraft Forge (securejarhandler)",
+              "type": "Library",
+              "artifact": {
+                "size": 87783,
+                "MD5": "8a4e7e2770d7147d7551d1f3ad835baa",
+                "url": "http://13.60.87.2/launcher_update/repo/lib/cpw/mods/securejarhandler/2.1.6/securejarhandler-2.1.6.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm:9.3",
+              "name": "Minecraft Forge (asm)",
+              "type": "Library",
+              "artifact": {
+                "size": 122176,
+                "MD5": "e1c3b96035117ab516ffe0de9bd696e0",
+                "url": "http://13.60.87.2/launcher_update/repo/lib/org/ow2/asm/asm/9.3/asm-9.3.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-commons:9.3",
+              "name": "Minecraft Forge (asm-commons)",
+              "type": "Library",
+              "artifact": {
+                "size": 72716,
+                "MD5": "16e6ac17d33ad97baa415c42e9d93d38",
+                "url": "http://13.60.87.2/launcher_update/repo/lib/org/ow2/asm/asm-commons/9.3/asm-commons-9.3.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-tree:9.3",
+              "name": "Minecraft Forge (asm-tree)",
+              "type": "Library",
+              "artifact": {
+                "size": 52669,
+                "MD5": "f087bfb911ff93957e44860de3e73c46",
+                "url": "http://13.60.87.2/launcher_update/repo/lib/org/ow2/asm/asm-tree/9.3/asm-tree-9.3.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-util:9.3",
+              "name": "Minecraft Forge (asm-util)",
+              "type": "Library",
+              "artifact": {
+                "size": 85682,
+                "MD5": "d6d0ac4e5c0be9a25a426c70c714b17b",
+                "url": "http://13.60.87.2/launcher_update/repo/lib/org/ow2/asm/asm-util/9.3/asm-util-9.3.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-analysis:9.3",
+              "name": "Minecraft Forge (asm-analysis)",
+              "type": "Library",
+              "artifact": {
+                "size": 34276,
+                "MD5": "11e43c0220b3f6b4791b8abf7b4cc7ef",
+                "url": "http://13.60.87.2/launcher_update/repo/lib/org/ow2/asm/asm-analysis/9.3/asm-analysis-9.3.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:accesstransformers:8.0.4",
+              "name": "Minecraft Forge (accesstransformers)",
+              "type": "Library",
+              "artifact": {
+                "size": 77756,
+                "MD5": "f0d3533f9437ba4428eaee9f28f7ecd9",
+                "url": "http://13.60.87.2/launcher_update/repo/lib/net/minecraftforge/accesstransformers/8.0.4/accesstransformers-8.0.4.jar"
+              }
+            },
+            {
+              "id": "org.antlr:antlr4-runtime:4.9.1",
+              "name": "Minecraft Forge (antlr4-runtime)",
+              "type": "Library",
+              "artifact": {
+                "size": 337868,
+                "MD5": "0dcc4b860d5d8d2852ab94d58c56ca2d",
+                "url": "http://13.60.87.2/launcher_update/repo/lib/org/antlr/antlr4-runtime/4.9.1/antlr4-runtime-4.9.1.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:eventbus:6.0.3",
+              "name": "Minecraft Forge (eventbus)",
+              "type": "Library",
+              "artifact": {
+                "size": 52624,
+                "MD5": "7c93693a70962a1c1893e3c058dca5cf",
+                "url": "http://13.60.87.2/launcher_update/repo/lib/net/minecraftforge/eventbus/6.0.3/eventbus-6.0.3.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:forgespi:6.0.0",
+              "name": "Minecraft Forge (forgespi)",
+              "type": "Library",
+              "artifact": {
+                "size": 32714,
+                "MD5": "8c04b8c26ac1d55c281bfeaa71731414",
+                "url": "http://13.60.87.2/launcher_update/repo/lib/net/minecraftforge/forgespi/6.0.0/forgespi-6.0.0.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:coremods:5.0.1",
+              "name": "Minecraft Forge (coremods)",
+              "type": "Library",
+              "artifact": {
+                "size": 24199,
+                "MD5": "8c590051c5d65e098ca7c2e3ddf803a8",
+                "url": "http://13.60.87.2/launcher_update/repo/lib/net/minecraftforge/coremods/5.0.1/coremods-5.0.1.jar"
+              }
+            },
+            {
+              "id": "cpw.mods:modlauncher:10.0.8",
+              "name": "Minecraft Forge (modlauncher)",
+              "type": "Library",
+              "artifact": {
+                "size": 130263,
+                "MD5": "3e171edcc29e762d2ecafffabb9e9341",
+                "url": "http://13.60.87.2/launcher_update/repo/lib/cpw/mods/modlauncher/10.0.8/modlauncher-10.0.8.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:unsafe:0.2.0",
+              "name": "Minecraft Forge (unsafe)",
+              "type": "Library",
+              "artifact": {
+                "size": 2834,
+                "MD5": "2d1016ebe4c1a63dd50a59d26bd12db1",
+                "url": "http://13.60.87.2/launcher_update/repo/lib/net/minecraftforge/unsafe/0.2.0/unsafe-0.2.0.jar"
+              }
+            },
+            {
+              "id": "com.electronwill.night-config:core:3.6.4",
+              "name": "Minecraft Forge (core)",
+              "type": "Library",
+              "artifact": {
+                "size": 199834,
+                "MD5": "d83ab07267e402131fb93d899a57f5cd",
+                "url": "http://13.60.87.2/launcher_update/repo/lib/com/electronwill/night-config/core/3.6.4/core-3.6.4.jar"
+              }
+            },
+            {
+              "id": "com.electronwill.night-config:toml:3.6.4",
+              "name": "Minecraft Forge (toml)",
+              "type": "Library",
+              "artifact": {
+                "size": 31816,
+                "MD5": "bc95d0709fff2164b01fd09fbc988be8",
+                "url": "http://13.60.87.2/launcher_update/repo/lib/com/electronwill/night-config/toml/3.6.4/toml-3.6.4.jar"
+              }
+            },
+            {
+              "id": "org.apache.maven:maven-artifact:3.8.5",
+              "name": "Minecraft Forge (maven-artifact)",
+              "type": "Library",
+              "artifact": {
+                "size": 58077,
+                "MD5": "ce473b0d9fbfd10fe147f03fe8707d67",
+                "url": "http://13.60.87.2/launcher_update/repo/lib/org/apache/maven/maven-artifact/3.8.5/maven-artifact-3.8.5.jar"
+              }
+            },
+            {
+              "id": "net.jodah:typetools:0.8.3",
+              "name": "Minecraft Forge (typetools)",
+              "type": "Library",
+              "artifact": {
+                "size": 15425,
+                "MD5": "ee4596e1413cc1a5e080c971d6064753",
+                "url": "http://13.60.87.2/launcher_update/repo/lib/net/jodah/typetools/0.8.3/typetools-0.8.3.jar"
+              }
+            },
+            {
+              "id": "net.minecrell:terminalconsoleappender:1.2.0",
+              "name": "Minecraft Forge (terminalconsoleappender)",
+              "type": "Library",
+              "artifact": {
+                "size": 15977,
+                "MD5": "679363fa893293791e55a21f81342f87",
+                "url": "http://13.60.87.2/launcher_update/repo/lib/net/minecrell/terminalconsoleappender/1.2.0/terminalconsoleappender-1.2.0.jar"
+              }
+            },
+            {
+              "id": "org.jline:jline-reader:3.12.1",
+              "name": "Minecraft Forge (jline-reader)",
+              "type": "Library",
+              "artifact": {
+                "size": 150765,
+                "MD5": "a2e7b012cd9802f83321187409174a94",
+                "url": "http://13.60.87.2/launcher_update/repo/lib/org/jline/jline-reader/3.12.1/jline-reader-3.12.1.jar"
+              }
+            },
+            {
+              "id": "org.jline:jline-terminal:3.12.1",
+              "name": "Minecraft Forge (jline-terminal)",
+              "type": "Library",
+              "artifact": {
+                "size": 211712,
+                "MD5": "3c52be5ab5e3847be6e62269de924cb0",
+                "url": "http://13.60.87.2/launcher_update/repo/lib/org/jline/jline-terminal/3.12.1/jline-terminal-3.12.1.jar"
+              }
+            },
+            {
+              "id": "org.spongepowered:mixin:0.8.5",
+              "name": "Minecraft Forge (mixin)",
+              "type": "Library",
+              "artifact": {
+                "size": 1089277,
+                "MD5": "19b3a2ae9e445a6e626fd7d1648cfcb8",
+                "url": "http://13.60.87.2/launcher_update/repo/lib/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar"
+              }
+            },
+            {
+              "id": "org.openjdk.nashorn:nashorn-core:15.3",
+              "name": "Minecraft Forge (nashorn-core)",
+              "type": "Library",
+              "artifact": {
+                "size": 2167288,
+                "MD5": "91e98c20afa1090c344229ce28b4c53f",
+                "url": "http://13.60.87.2/launcher_update/repo/lib/org/openjdk/nashorn/nashorn-core/15.3/nashorn-core-15.3.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:JarJarSelector:0.3.19",
+              "name": "Minecraft Forge (JarJarSelector)",
+              "type": "Library",
+              "artifact": {
+                "size": 17374,
+                "MD5": "2bb6cbe0e6c6fbcd8f92d2e6b1ea678e",
+                "url": "http://13.60.87.2/launcher_update/repo/lib/net/minecraftforge/JarJarSelector/0.3.19/JarJarSelector-0.3.19.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:JarJarMetadata:0.3.19",
+              "name": "Minecraft Forge (JarJarMetadata)",
+              "type": "Library",
+              "artifact": {
+                "size": 15895,
+                "MD5": "9633546d299d4282ca68d10582be1c8f",
+                "url": "http://13.60.87.2/launcher_update/repo/lib/net/minecraftforge/JarJarMetadata/0.3.19/JarJarMetadata-0.3.19.jar"
+              }
+            },
+            {
+              "id": "cpw.mods:bootstraplauncher:1.1.2",
+              "name": "Minecraft Forge (bootstraplauncher)",
+              "type": "Library",
+              "artifact": {
+                "size": 8284,
+                "MD5": "48f5255aa337344c467c0150d347813d",
+                "url": "http://13.60.87.2/launcher_update/repo/lib/cpw/mods/bootstraplauncher/1.1.2/bootstraplauncher-1.1.2.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:JarJarFileSystems:0.3.19",
+              "name": "Minecraft Forge (JarJarFileSystems)",
+              "type": "Library",
+              "artifact": {
+                "size": 32195,
+                "MD5": "c2be1a88b63eb1b58b00ab6e498cd97d",
+                "url": "http://13.60.87.2/launcher_update/repo/lib/net/minecraftforge/JarJarFileSystems/0.3.19/JarJarFileSystems-0.3.19.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:fmlloader:1.19.3-44.1.23",
+              "name": "Minecraft Forge (fmlloader)",
+              "type": "Library",
+              "artifact": {
+                "size": 261270,
+                "MD5": "a5b17b652c619f627695d5f27da6024f",
+                "url": "http://13.60.87.2/launcher_update/repo/lib/net/minecraftforge/fmlloader/1.19.3-44.1.23/fmlloader-1.19.3-44.1.23.jar"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
